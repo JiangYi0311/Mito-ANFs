@@ -1,4 +1,4 @@
 # Mito-ANFs
-Install
-PyTorch
+Install<br />
+PyTorch<br />
 NumPy

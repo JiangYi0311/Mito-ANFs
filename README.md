@@ -1,4 +1,3 @@
 # Mito-ANFs
-Install<br />
-PyTorch<br />
-NumPy
+## Install
+Pytorch==1.10.1+cu111

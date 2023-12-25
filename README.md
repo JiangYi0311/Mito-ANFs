@@ -1,4 +1,4 @@
 # Mito-ANFs
 Install
-pytorch
-numpy
+PyTorch
+NumPy

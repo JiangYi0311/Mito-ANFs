@@ -12,6 +12,7 @@ Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dat
 
 ## 3. Model (mitochondria segmentation)
 The model was based on the residual 3D U-Net architecture.
+Model parameter:
 
 ## 4. Measurement
 The volume of mitochondria is the sum of voxels. ANF-associated mitochondria were divided into super voxels with a unit volume of (0.07 $μm^3$) along the longest axis (code:).

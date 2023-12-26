@@ -11,7 +11,7 @@ h5py==3.8.0<br />
 Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dataset-1: 60 × 55 × 42 $μm^3$, dataset-2: 88 × 46 × 60 $μm^3$) 
 
 ## 3. Model (mitochondria segmentation)
-![image](https://github.com/JiangYi0311/Mito-ANFs/blob/main/picture/network.png)
+![image](picture/network.png)
 The model was based on the residual 3D U-Net architecture.
 
 Model parameter:

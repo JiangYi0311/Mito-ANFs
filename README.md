@@ -21,3 +21,7 @@ Model parameter: [Weight](https://pan.baidu.com/s/1ygFEJoowlZb588PJW9iMRw)(code:
 
 ## 4. Measurement
 The volume of mitochondria is the sum of voxels. ANF-associated mitochondria were divided into super voxels with a unit volume of (0.07 $μm^3$) along the longest axis (see code).
+
+## 5. References
+Lee, K., Zung, J., Li, P.H., Jain, V., and Seung, H.S. (2017). Superhuman Accuracy on the SNEMI3D Connectomics Challenge. ArXiv abs/1706.00120.
+Wei, D., Lin, Z., Franco-Barranco, D., Wendt, N., Liu, X., Yin, W., Huang, X., Gupta, A., Jang, WD., Wang, X., Arganda-Carreras, I., Lichtman, JW., and Pfister, H. (2020). MitoEM Dataset: Large-scale 3D Mitochondria Instance Segmentation from EM Images. Med Image Comput Comput Assist Interv. 12265: 66-76. 

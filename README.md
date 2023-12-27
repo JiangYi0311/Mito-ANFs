@@ -15,7 +15,7 @@ Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dat
 
 ## 3. Model (mitochondria segmentation)
 ![image](picture/network.png)
-The model was based on the residual 3D U-Net architecture (Lee et al., 2017).
+The model was based on the residual 3D U-Net architecture (Lee et al., 2017). The model code can be downloaded by [pytorch_connectomics](https://github.com/zudi-lin/pytorch_connectomics).
 
 Model parameter: [Weight](https://pan.baidu.com/s/1ygFEJoowlZb588PJW9iMRw)(code: mito)
 

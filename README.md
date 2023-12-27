@@ -9,7 +9,9 @@ h5py==3.8.0<br />
 
 ## 2. Dataset
 Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dataset-1: 60 × 55 × 42 $μm^3$, dataset-2: 88 × 46 × 60 $μm^3$) 
-train dataset: [image and mask](https://pan.baidu.com/s/1pF2snx4IPPwlRptBL8spkg) (code:trai)
+
+[Two training datasets](https://pan.baidu.com/s/1pF2snx4IPPwlRptBL8spkg), each consisting of 1536 × 1536 × 100 voxels. (code:trai)
+
 
 ## 3. Model (mitochondria segmentation)
 ![image](picture/network.png)

@@ -20,7 +20,7 @@ The model was based on the residual 3D U-Net architecture (Lee et al., 2017). Th
 ### Train
 python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml <br />
 
-Model parameter: [Weight](https://pan.baidu.com/s/1ygFEJoowlZb588PJW9iMRw) (code: mito)
+Model parameter: [Weight](https://onedrive.live.com/?id=F64849A5930EAEE7%21s1c74574f0d234187baf57bf1a1d11028&cid=F64849A5930EAEE7) (latest, code: mito)
 ### Inference
 python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml --inference --checkpoint datasets/output/checkpoint_200000.pth.tar
 

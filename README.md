@@ -10,7 +10,7 @@ h5py==3.8.0<br />
 ## 2. Dataset
 Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dataset-1: 60 × 55 × 42 $μm^3$, dataset-2: 88 × 46 × 60 $μm^3$) 
 
-[Two training datasets](https://pan.baidu.com/s/1pF2snx4IPPwlRptBL8spkg), each consisting of 1536 × 1536 × 100 voxels. (code: trai)
+[Two training datasets](https://pan.baidu.com/s/1pF2snx4IPPwlRptBL8spkg), each consisting of 1536 × 1536 × 100 voxels.
 
 
 ## 3. Model (mitochondria segmentation)
@@ -18,11 +18,11 @@ Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dat
 ![image](picture/network.png)
 The model was based on the residual 3D U-Net architecture (Lee et al., 2017). The model code can be downloaded by [pytorch_connectomics](https://github.com/zudi-lin/pytorch_connectomics).
 ### Train
-python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml <br />
+`python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml <br />`
 
-Model parameter: [Weight](https://onedrive.live.com/?id=F64849A5930EAEE7%21s1c74574f0d234187baf57bf1a1d11028&cid=F64849A5930EAEE7) (latest, code: mito)
+Model parameter: [Weight](https://onedrive.live.com/?id=F64849A5930EAEE7%21s1c74574f0d234187baf57bf1a1d11028&cid=F64849A5930EAEE7) (latest)
 ### Inference
-python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml --inference --checkpoint datasets/output/checkpoint_200000.pth.tar
+`python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml --inference --checkpoint datasets/output/checkpoint_200000.pth.tar`
 
 
 

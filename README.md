@@ -18,7 +18,7 @@ Two mid-cochlea datasets at the spatial resolution of 12 × 12 × 50 $nm^3$ (dat
 ![image](picture/network.png)
 The model was based on the residual 3D U-Net architecture (Lee et al., 2017). The model code can be downloaded by [pytorch_connectomics](https://github.com/zudi-lin/pytorch_connectomics).
 ### Train
-`python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml <br />`
+`python -u main.py --config-base configs/MitoEM/MitoEM-R-Base.yaml --config-file configs/MitoEM/MitoEM-R-BC.yaml`
 
 Model parameter: [Weight](https://onedrive.live.com/?id=F64849A5930EAEE7%21s1c74574f0d234187baf57bf1a1d11028&cid=F64849A5930EAEE7) (latest)
 ### Inference

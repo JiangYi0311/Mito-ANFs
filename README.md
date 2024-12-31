@@ -33,3 +33,7 @@ The volume of mitochondria is the sum of voxels. ANF-associated mitochondria wer
 Lee, K., Zung, J., Li, P.H., Jain, V., and Seung, H.S. (2017). Superhuman Accuracy on the SNEMI3D Connectomics Challenge. ArXiv abs/1706.00120. <br />
 Wei, D., Lin, Z., Franco-Barranco, D., Wendt, N., Liu, X., Yin, W., Huang, X., Gupta, A., Jang, WD., Wang, X., Arganda-Carreras, I., Lichtman, JW., and Pfister, H. (2020). MitoEM Dataset: Large-scale 3D Mitochondria Instance Segmentation from EM Images. Med Image Comput Comput Assist Interv. 12265: 66-76. <br />
 Lin, Z., Wei, D., Lichtman, J.W., & Pfister, H. (2021). PyTorch Connectomics: A Scalable and Flexible Segmentation Framework for EM Connectomics. ArXiv, abs/2112.05754.
+
+## Citation
+For a detailed description, please read this [paper](https://link.springer.com/article/10.1007/s10162-024-00957-y). If you use the method in your research, please cite:  
+Lu, Y., Jiang, Y., Wang, F. et al. Electron Microscopic Mapping of Mitochondrial Morphology in the Cochlear Nerve Fibers. JARO 25, 341–354 (2024). https://doi.org/10.1007/s10162-024-00957-y
